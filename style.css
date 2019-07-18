@@ -43,7 +43,56 @@ body{
     font-size: 15px;
     line-height: 1.5;
     color: #555;
-}
+} 
+      /*   for Image Responsive
+      @media only screen and (max-width: 600px) {
+       div.row div.col-md-4 div.main_cat_item.border_1.bg-white.img {
+       height: 355px;
+       width: 380px;
+       background-color: red;
+       padding-right: 5px;
+       }
+           } */
+           
+ 
+         @media (max-width: 575.98px) {
+         div.search_header div.search_product.all_catagories_area {
+         width: 35%;
+         float: left;
+         border: none;
+         border-right: 1px solid #dae0e5;
+         }
+         }
+         div.container-fluid .footer_content {
+         width: 25%;
+         text-align: left;
+         padding-left: 5%;
+         }
+         @media (max-width: 575.98px) { 
+         div.container-fluid  div.footer_content h4{
+         font-size: 12px;
+         text-align: center;
+         }
+        
+         /* end */
+         header div.container-fluid div.search_header div.row div.col-xl-10 div.search_product div.all_catgories_area.border_1 {
+         width: 35%;
+         float: left;
+         border: none;
+         border-right: 1px solid #dae0e5;
+         } 
+         div.footer_content ul.mt-3.list-unstyled li a{
+         font-size: 11px;
+         font-family: sans-serif;
+         }
+         div#navbarTogglerDemo03.navbar-collapse.collapse ul.navbar-nav
+         {
+         position: unset;
+         right: -15px;
+         }
+         }
+   
+
 a:hover{
     text-decoration: none;
     color: inherit;
